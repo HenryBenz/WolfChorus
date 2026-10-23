@@ -1,0 +1,82 @@
+{
+  "wolves": [
+    {
+      "id": "arkan",
+      "name": "Arkan",
+      "role": "The Leader",
+      "howlName": "Courage Echo",
+      "biography": "He carries the pack’s fear without showing his own. His voice turns hesitation into movement.",
+      "trust": 92,
+      "instinct": 78,
+      "speed": 74,
+      "colorHex": "FF493D",
+      "echo": "courage",
+      "facesLeft": false
+    },
+    {
+      "id": "saira",
+      "name": "Saira",
+      "role": "The Tracker",
+      "howlName": "Tracker Echo",
+      "biography": "No broken branch or fading scent escapes her. She hears danger before the forest admits it.",
+      "trust": 74,
+      "instinct": 96,
+      "speed": 78,
+      "colorHex": "74E7FF",
+      "echo": "tracker",
+      "facesLeft": false
+    },
+    {
+      "id": "nora",
+      "name": "Nora",
+      "role": "The Keeper",
+      "howlName": "Calming Echo",
+      "biography": "Her calm holds the pack together. Even frightened hearts answer when she calls.",
+      "trust": 96,
+      "instinct": 70,
+      "speed": 71,
+      "colorHex": "F5B83D",
+      "echo": "calming",
+      "facesLeft": false
+    },
+    {
+      "id": "rune",
+      "name": "Rune",
+      "role": "The Young",
+      "howlName": "Curious Echo",
+      "biography": "Curiosity pulls him beyond every safe trail. His strange voice wakes secrets buried in the dark.",
+      "trust": 58,
+      "instinct": 88,
+      "speed": 80,
+      "colorHex": "A988FF",
+      "echo": "curious",
+      "facesLeft": false
+    },
+    {
+      "id": "mor",
+      "name": "Mor",
+      "role": "The Exile",
+      "howlName": "False Echo",
+      "biography": "He survived by misleading stronger enemies. Trust does not come easily to him—or to the pack.",
+      "trust": 40,
+      "instinct": 90,
+      "speed": 73,
+      "colorHex": "7DDBB5",
+      "echo": "false",
+      "facesLeft": true
+    },
+    {
+      "id": "lumi",
+      "name": "Lumi",
+      "role": "The White Moon",
+      "howlName": "Frozen Echo",
+      "biography": "Her frozen echo preserves what the night tries to erase. She walks where ordinary voices disappear.",
+      "trust": 84,
+      "instinct": 86,
+      "speed": 76,
+      "colorHex": "EAF8FF",
+      "echo": "frozen",
+      "facesLeft": false
+    }
+  ]
+}

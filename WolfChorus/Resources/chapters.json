@@ -1,0 +1,740 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "First Voice",
+      "story": "The pack wakes beneath unfamiliar pines. Arkan must gather every voice before the moon rises.",
+      "objective": "Gather the pack and reach the ridge.",
+      "background": "bg_chapter_01_blue_pines",
+      "music": "music_exploration",
+      "ambient": "amb_blue_forest",
+      "wolves": [
+        "arkan",
+        "nora"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "tutorial",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Tap a portrait to select that wolf.",
+        "Touch and hold anywhere in the playable area, excluding HUD, to begin aiming.",
+        "Tap a revealed Echo Point to set it as the pack target."
+      ],
+      "encounters": [
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "ravens",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "ravens",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "ravens",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "ravens",
+          "memoryID": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Scent of Rain",
+      "story": "Rain is erasing the trail home. Saira hears a path hidden beneath the storm.",
+      "objective": "Follow three fading trails before they vanish.",
+      "background": "bg_chapter_02_rain_trail",
+      "music": "music_exploration",
+      "ambient": "amb_rain_forest",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "shortTrails",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 4,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Revealed trails last four seconds."
+      ],
+      "encounters": [
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "trunk",
+          "memoryID": 2
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "trunk",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hungry Eyes",
+      "story": "The pack has traveled too far without food. A deer moves somewhere beyond the blue fog.",
+      "objective": "Surround the deer without alerting the forest.",
+      "background": "bg_chapter_03_hunting_valley",
+      "music": "music_hunt",
+      "ambient": "amb_open_valley",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "attentionLimit",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": 80,
+      "strongHowlLimit": null,
+      "hints": [
+        "Attention must stay below 80 at the final objective."
+      ],
+      "encounters": [
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "deer",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "deer",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "deer",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "deer",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "deer",
+          "memoryID": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Foreign Howl",
+      "story": "Another pack answers from the dark. Their distance is impossible to judge.",
+      "objective": "Cross rival territory without scattering.",
+      "background": "bg_chapter_04_rival_woods",
+      "music": "music_danger",
+      "ambient": "amb_blue_forest",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "rivalDecoys",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Red threat echoes and two decoy routes."
+      ],
+      "encounters": [
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "rival",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "rival",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "rival",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "rival",
+          "memoryID": 4
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "rival",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Forest of Fire",
+      "story": "Lightning wakes a wall of flame. Fear moves faster than any wolf.",
+      "objective": "Reach the river before the fire closes the trail.",
+      "background": "bg_chapter_05_burning_forest",
+      "music": "music_danger",
+      "ambient": "amb_fire_forest",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "fireCountdown",
+      "countdownSeconds": 360,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "6-minute chapter countdown",
+        "Anxiety pulses every 20 seconds."
+      ],
+      "encounters": [
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "fire",
+          "memoryID": 5
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "fire",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Thin Ice",
+      "story": "The river offers the shortest path—and the most fragile one. Every loud voice carries through the ice.",
+      "objective": "Cross the frozen river with all wolves together.",
+      "background": "bg_chapter_06_frozen_river",
+      "music": "music_exploration",
+      "ambient": "amb_frozen_river",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "thinIce",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Strong howl near cracked ice activates it after three seconds."
+      ],
+      "encounters": [
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "ice",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Trail of the Exile",
+      "story": "A false howl pulls danger away from the pack. Its owner waits alone beyond the trees.",
+      "objective": "Find Mor and escape the bear.",
+      "background": "bg_chapter_07_exile_caves",
+      "music": "music_danger",
+      "ambient": "amb_caves",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": "mor",
+      "joiningEncounter": 3,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "exile",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Mor joins in encounter 3."
+      ],
+      "encounters": [
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "bear",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "bear",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "bear",
+          "memoryID": 6
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "bear",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "bear",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Divide",
+      "story": "Mor’s presence fractures the pack. Every command now sounds like a question.",
+      "objective": "Restore trust and reunite two separated groups.",
+      "background": "bg_chapter_08_split_ravine",
+      "music": "music_exploration",
+      "ambient": "amb_caves",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune",
+        "mor"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 48,
+      "startingAnxiety": 25,
+      "special": "divide",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Groups begin on different route branches."
+      ],
+      "encounters": [
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "trunk",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "trunk",
+          "memoryID": 7
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Silent Night",
+      "story": "Hunters have entered the valley. The pack must move without filling the forest with sound.",
+      "objective": "Reach the old den with no more than six strong howls.",
+      "background": "bg_chapter_09_old_den",
+      "music": "music_exploration",
+      "ambient": "amb_old_den",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune",
+        "mor"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "silentNight",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": 6,
+      "hints": [],
+      "encounters": [
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "lantern",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "lantern",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "lantern",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "lantern",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "lantern",
+          "memoryID": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Red Moon",
+      "story": "Every trail leads to the same clearing. At dawn, the valley will belong to one united voice.",
+      "objective": "Guide the complete pack through the final convergence.",
+      "background": "bg_chapter_10_red_moon",
+      "music": "music_red_moon",
+      "ambient": "amb_open_valley",
+      "wolves": [
+        "arkan",
+        "nora",
+        "saira",
+        "rune",
+        "mor"
+      ],
+      "leaderID": "arkan",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "convergence",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [],
+      "encounters": [
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "rival",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "deer",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "threat",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "fire",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "rival",
+          "memoryID": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Frozen Voice",
+      "story": "Beyond the valley, a white wolf calls through falling snow. Her echo refuses to fade.",
+      "objective": "Find Lumi and preserve the path through the blizzard.",
+      "background": "bg_chapter_11_frozen_valley",
+      "music": "music_white_moon",
+      "ambient": "amb_blizzard",
+      "wolves": [
+        "saira",
+        "nora",
+        "lumi"
+      ],
+      "leaderID": "nora",
+      "joiningWolfID": null,
+      "joiningEncounter": null,
+      "startingTrust": 70,
+      "startingAnxiety": 25,
+      "special": "frozenVoice",
+      "countdownSeconds": null,
+      "trailRevealSeconds": 6,
+      "attentionLimit": null,
+      "strongHowlLimit": null,
+      "hints": [
+        "Revealed points remain visible for 14 seconds.",
+        "One thin-ice hazard in range is frozen and disabled for eight seconds.",
+        "Her frozen echo preserves what the night tries to erase."
+      ],
+      "encounters": [
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P6",
+          "safe": "P4",
+          "hazard": "P5",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P4",
+          "safe": "P5",
+          "hazard": "P6",
+          "hazardKind": "ice",
+          "memoryID": null
+        },
+        {
+          "required": "P5",
+          "safe": "P6",
+          "hazard": "P4",
+          "hazardKind": "ice",
+          "memoryID": null
+        }
+      ]
+    }
+  ]
+}

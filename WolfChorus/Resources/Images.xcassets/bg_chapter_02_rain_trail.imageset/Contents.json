@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "bg_chapter_02_rain_trail.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

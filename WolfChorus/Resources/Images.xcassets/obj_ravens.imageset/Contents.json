@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "obj_ravens.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

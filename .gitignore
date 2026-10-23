@@ -1,0 +1,50 @@
+# Не входит в архив релиза: служебные файлы, артефакты сборки и исходники вне таргета.
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode — личные настройки и состояние редактора
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.xcworkspace/xcuserdata/
+
+# Сборка и архив
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Подпись: сертификаты и профили берёт Codemagic
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+AuthKey_*.p8
+*.p8
+
+# Исходники, которые не ссылаются из WolfChorus.xcodeproj
+Wolf_Chorus_Assets/
+WOLF_CHORUS_IMPLEMENTATION_SPEC.md
